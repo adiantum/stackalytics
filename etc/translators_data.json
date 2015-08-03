@@ -1,0 +1,62 @@
+{
+    "users": [
+        {
+            "launchpad_id": "daisy-ycguo",
+            "zanata_id": "daisyycguo",
+            "companies": [
+                {
+                    "company_name": "IBM",
+                    "end_date": null
+                }
+            ],
+            "user_name": "Ying Chun Guo",
+            "emails": ["guoyingc@cn.ibm.com"]
+        },
+    ],
+    "repos": [
+        {
+            "releases": [
+                {
+                    "branch": "master"
+                    "tag_to": "",
+                    "release_name": "",
+                    "tag_from": ""
+                },
+            ],
+            "uri": "https://translate-dev.openstack.org/project/view/openstack-manuals",
+            "module": "openstack-manuals",
+            "organization": "translation"
+        },
+        {
+            "releases": [
+                {
+                    "branch": "master"
+                    "tag_to": "",
+                    "release_name": "",
+                    "tag_from": ""
+                },
+            ],
+            "uri": "https://translate-dev.openstack.org/project/view/horizon",
+            "module": "horizon",
+            "organization": "translation"
+        },
+        {
+            "releases": [
+                {
+                    "branch": "master"
+                    "tag_to": "",
+                    "release_name": "",
+                    "tag_from": ""
+                },
+            ],
+            "uri": "https://translate-dev.openstack.org/project/view/nova",
+            "module": "nova",
+            "organization": "translation"
+        },
+    ],
+    "project_sources": [
+        {
+            "organization": "translation"
+        },
+    ],
+}
