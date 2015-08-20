@@ -171,6 +171,11 @@ def _process_mail_list(uri, runtime_storage_inst, record_processor_inst):
         mail_iterator_typed)
     runtime_storage_inst.set_records(processed_mail_iterator)
 
+def _process_translation(uri, runtime_storage_inst, record_processor_inst):
+    # read translation_team.yaml, get user id
+    # get projects uri from zanata
+    # get user records
+    pass
 
 def _process_member_list(uri, runtime_storage_inst, record_processor_inst):
     member_iterator = mps.log(uri, runtime_storage_inst,

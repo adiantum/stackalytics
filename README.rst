@@ -23,3 +23,14 @@ Project Info
  * Bugs: https://bugs.launchpad.net/stackalytics
  * Code Reviews: https://review.openstack.org/#q,status:open+stackalytics,n,z
  * IRC: #openstack-stackalytics at freenode
+
+Blueprint: Add translation metric
+--------------
+Back end tasks
+ * Return a fack translation record
+ * Read translation_team.yaml(main.py)
+ * Read project list from Zanata(tls.py)
+ * Read translator record from Zanata(tls.py)
+ * Insert translation data into record (record_processor.py)
+
+
