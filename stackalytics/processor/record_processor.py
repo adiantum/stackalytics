@@ -542,6 +542,11 @@ class RecordProcessor(object):
 
         yield record
 
+    def _process_translation(self, record):
+        #TODO(adiantum): stub method for translation record processing
+        yield record
+
+
     def _process_ci(self, record):
         ci_vote = dict((k, v) for k, v in six.iteritems(record)
                        if k not in ['reviewer'])
@@ -573,6 +578,7 @@ class RecordProcessor(object):
             'bug': self._process_bug,
             'member': self._process_member,
             'ci_vote': self._process_ci,
+            'i18n': self._process_translation,
         }
 
         for record in record_iterator:

@@ -227,6 +227,9 @@ def process(runtime_storage_inst, record_processor_inst):
         _process_mail_list(mail_list, runtime_storage_inst,
                            record_processor_inst)
 
+    #TODO(adiantum): replace stub with tranlslation acquisition logic
+    _process_translation(runtime_storage_inst, record_processor_inst)
+
     _post_process_records(record_processor_inst, repos)
 
 
